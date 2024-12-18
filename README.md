@@ -1,4 +1,4 @@
-# Built.is Plugin: About ShadCN
+# Built.is Plugin: Social Proof ShadCN
 
 A [Built.js](https://builtjs.com) plugin with sections and pages for showcasing customer feedback, with ShadCN.
 
