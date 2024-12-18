@@ -1,0 +1,38 @@
+{
+  "modulePages": [
+    {
+      "name": "homeTestimonials",
+      "description": "Testimonials section on the Home page",
+      "page": {
+        "name": "home"
+      },
+      "sections": [
+        {
+          "name": "testimonials",
+          "position": 2
+        }
+      ]
+    },
+    {
+      "name": "aboutPage",
+      "description": "About page with testimonials and statistics",
+      "page": {
+        "name": "about"
+      },
+      "sections": [
+        {
+          "name": "testimonialStats",
+          "position": 1
+        },
+        {
+          "name": "testimonialsFeatured",
+          "position": 2
+        },
+        {
+          "name": "testimonialsList",
+          "position": 3
+        }
+      ]
+    }
+  ]
+}

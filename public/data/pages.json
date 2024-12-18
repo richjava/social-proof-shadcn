@@ -1,0 +1,30 @@
+{
+  "pages": [
+    {
+      "name": "home",
+      "sections": [
+        {
+          "name": "testimonials",
+          "template": "testimonials1"
+        }
+      ]
+    },
+    {
+      "name": "about",
+      "sections": [
+        {
+          "name": "testimonialStats",
+          "template": "stats1"
+        },
+        {
+          "name": "testimonialsFeatured",
+          "template": "testimonials3"
+        },
+        {
+          "name": "testimonialsList",
+          "template": "testimonials2"
+        }
+      ]
+    }
+  ]
+}

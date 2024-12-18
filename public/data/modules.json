@@ -1,0 +1,20 @@
+{
+  "modules": [
+    {
+      "name": "socialProof",
+      "title": "Social Proof",
+      "description": "Beautiful testimonial sections for showcasing customer feedback",
+      "modulePages": [
+        {
+          "name": "aboutPage"
+        },
+        {
+          "name": "homeTestimonials"
+        },
+        {
+          "name": "homeTestimonials"
+        }
+      ]
+    }
+  ]
+}

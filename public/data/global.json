@@ -1,0 +1,16 @@
+{
+  "global": {
+    "name": "Social Proof ShadCN",
+    "description": "Beautiful testimonial components for your Next.js projects",
+    "logo": {
+      "url": "https://res.cloudinary.com/dn7feeelf/image/upload/v1725870579/builtjs_bert2m.svg",
+      "width": 45,
+      "height": 45
+    },
+    "social": {
+      "twitter": "https://twitter.com",
+      "github": "https://github.com",
+      "linkedin": "https://linkedin.com"
+    }
+  }
+}

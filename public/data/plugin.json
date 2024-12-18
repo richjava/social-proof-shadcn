@@ -1,0 +1,20 @@
+{
+  "plugin": {
+    "namespace": "richjava_social-proof-shad-cn",
+    "title": "Social Proof ShadCN",
+    "description": "A beautiful testimonial section plugin with ShadCN UI components.",
+    "mainModule": {
+      "name": "socialProof"
+    },
+    "config": {
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "clsx",
+        "lucide-react",
+        "tailwind-merge",
+        "tailwindcss-animate"
+      ]
+    }
+  }
+}

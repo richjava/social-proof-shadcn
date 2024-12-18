@@ -1,0 +1,55 @@
+{
+  "contentTypes": [
+    {
+      "name": "testimonial",
+      "title": "Testimonial",
+      "dataPosition": 1,
+      "fields": {
+        "content": {
+          "type": "text",
+          "required": true
+        },
+        "author": {
+          "type": "string",
+          "required": true
+        },
+        "role": {
+          "type": "string",
+          "required": true
+        },
+        "company": {
+          "type": "string",
+          "required": true
+        },
+        "image": {
+          "type": "image",
+          "required": true
+        },
+        "rating": {
+          "type": "number",
+          "required": true,
+          "min": 1,
+          "max": 5
+        }
+      }
+    },
+    {
+      "name": "stat",
+      "title": "Statistic",
+      "dataPosition": 1,
+      "fields": {
+        "value": {
+          "type": "string",
+          "required": true
+        },
+        "label": {
+          "type": "string",
+          "required": true
+        },
+        "description": {
+          "type": "text"
+        }
+      }
+    }
+  ]
+}

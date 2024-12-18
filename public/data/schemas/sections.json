@@ -1,0 +1,69 @@
+{
+  "sections": {
+    "header": {
+      "name": "header",
+      "fields": {
+        "title": {
+          "type": "string"
+        }
+      }
+    },
+    "footer": {
+      "name": "footer",
+      "fields": {
+        "description": {
+          "type": "text"
+        }
+      }
+    },
+    "testimonials": {
+      "name": "testimonials",
+      "fields": {
+        "heading": {
+          "type": "string"
+        },
+        "blurb": {
+          "type": "text"
+        }
+      }
+    },
+    "testimonialStats": {
+      "name": "testimonialStats",
+      "fields": {
+        "heading": {
+          "type": "string"
+        },
+        "blurb": {
+          "type": "text"
+        },
+        "stats": {
+          "type": "relation",
+          "relation": "oneToMany",
+          "target": "stat"
+        }
+      }
+    },
+    "testimonialsList": {
+      "name": "testimonialsList",
+      "fields": {
+        "heading": {
+          "type": "string"
+        },
+        "blurb": {
+          "type": "text"
+        }
+      }
+    },
+    "testimonialsFeatured": {
+      "name": "testimonialsFeatured",
+      "fields": {
+        "heading": {
+          "type": "string"
+        },
+        "blurb": {
+          "type": "text"
+        }
+      }
+    }
+  }
+}

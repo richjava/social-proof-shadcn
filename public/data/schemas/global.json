@@ -1,0 +1,18 @@
+{
+  "global": {
+    "fields": {
+      "name": {
+        "type": "string",
+        "default": "Social Proof ShadCN",
+        "required": true
+      },
+      "description": {
+        "type": "text",
+        "default": "Beautiful testimonial components for your Next.js projects"
+      },
+      "logo": {
+        "type": "image"
+      }
+    }
+  }
+}

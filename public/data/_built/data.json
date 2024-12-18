@@ -1,0 +1,408 @@
+{
+  "contentTypes": [
+    {
+      "name": "testimonial",
+      "title": "Testimonial",
+      "dataPosition": 1,
+      "fields": {
+        "content": {
+          "type": "text",
+          "required": true
+        },
+        "author": {
+          "type": "string",
+          "required": true
+        },
+        "role": {
+          "type": "string",
+          "required": true
+        },
+        "company": {
+          "type": "string",
+          "required": true
+        },
+        "image": {
+          "type": "image",
+          "required": true
+        },
+        "rating": {
+          "type": "number",
+          "required": true,
+          "min": 1,
+          "max": 5
+        }
+      }
+    },
+    {
+      "name": "stat",
+      "title": "Statistic",
+      "dataPosition": 1,
+      "fields": {
+        "value": {
+          "type": "string",
+          "required": true
+        },
+        "label": {
+          "type": "string",
+          "required": true
+        },
+        "description": {
+          "type": "text"
+        }
+      }
+    }
+  ],
+  "pages": [
+    {
+      "name": "home",
+      "sections": [
+        {
+          "name": "testimonials",
+          "template": "testimonials1"
+        }
+      ],
+      "demoSections": [
+        {
+          "name": "testimonials"
+        }
+      ]
+    },
+    {
+      "name": "about",
+      "sections": [
+        {
+          "name": "testimonialStats",
+          "template": "stats1"
+        },
+        {
+          "name": "testimonialsFeatured",
+          "template": "testimonials3"
+        },
+        {
+          "name": "testimonialsList",
+          "template": "testimonials2"
+        }
+      ],
+      "demoSections": [
+        {
+          "name": "testimonialStats"
+        },
+        {
+          "name": "testimonialsFeatured"
+        },
+        {
+          "name": "testimonialsList"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "testimonials",
+      "title": "Testimonials Grid",
+      "description": "A beautiful testimonial section showcasing customer feedback in a grid layout.",
+      "data": {
+        "heading": "What Our Clients Say",
+        "blurb": "Don't just take our word for it - hear from our satisfied customers"
+      },
+      "templates": [
+        "testimonials1"
+      ],
+      "type": "body",
+      "defaultTemplate": {
+        "name": "testimonials1"
+      },
+      "collections": {
+        "testimonial": {}
+      }
+    },
+    {
+      "name": "testimonialsList",
+      "title": "Testimonials List",
+      "description": "A list view of testimonials with detailed feedback.",
+      "data": {
+        "heading": "Customer Success Stories",
+        "blurb": "Read what our customers have achieved with our solution"
+      },
+      "templates": [
+        "testimonials2"
+      ],
+      "type": "body",
+      "defaultTemplate": {
+        "name": "testimonials2"
+      },
+      "collections": {
+        "testimonial": {}
+      }
+    },
+    {
+      "name": "testimonialsFeatured",
+      "title": "Featured Testimonials",
+      "description": "Showcase your best testimonials in a carousel.",
+      "data": {
+        "heading": "Featured Reviews",
+        "blurb": "See why industry leaders choose us"
+      },
+      "templates": [
+        "testimonials3"
+      ],
+      "type": "body",
+      "defaultTemplate": {
+        "name": "testimonials3"
+      },
+      "collections": {
+        "testimonial": {}
+      }
+    },
+    {
+      "name": "testimonialStats",
+      "title": "Testimonial Statistics",
+      "description": "Display key statistics from customer feedback.",
+      "data": {
+        "heading": "By the Numbers",
+        "blurb": "Our impact in statistics"
+      },
+      "templates": [
+        "stats1"
+      ],
+      "type": "body",
+      "defaultTemplate": {
+        "name": "stats1"
+      },
+      "collections": {
+        "stat": {}
+      }
+    },
+    {
+      "name": "header",
+      "title": "Header",
+      "description": "The main navigation header of the website.",
+      "data": {
+        "title": "Social Proof ShadCN"
+      },
+      "templates": [
+        "header1"
+      ],
+      "type": "header",
+      "defaultTemplate": {
+        "name": "header1"
+      }
+    },
+    {
+      "name": "footer",
+      "title": "Footer",
+      "description": "The footer section containing site information and links.",
+      "data": {
+        "description": "Showcase your customer testimonials with our beautiful and customizable components."
+      },
+      "templates": [
+        "footer1"
+      ],
+      "type": "footer",
+      "defaultTemplate": {
+        "name": "footer1"
+      }
+    }
+  ],
+  "templates": [
+    {
+      "name": "testimonials1",
+      "title": "Testimonials Grid",
+      "category": "testimonials",
+      "namespace": "richjava_social-proof-shad-cn",
+      "description": "A grid layout of customer testimonials with ratings and profile images.",
+      "imageUrl": "https://res.cloudinary.com/dn7feeelf/image/upload/v1733728008/builtjs/plugin/richjava_social-proof-shad-cn/home-testimonials1.png"
+    },
+    {
+      "name": "testimonials2",
+      "title": "Testimonials List",
+      "category": "testimonials",
+      "namespace": "richjava_social-proof-shad-cn",
+      "description": "A vertical list of detailed testimonials with expanded content.",
+      "imageUrl": "https://res.cloudinary.com/dn7feeelf/image/upload/v1733728013/builtjs/plugin/richjava_social-proof-shad-cn/about-testimonials2.png"
+    },
+    {
+      "name": "testimonials3",
+      "title": "Featured Testimonials",
+      "category": "testimonials",
+      "namespace": "richjava_social-proof-shad-cn",
+      "description": "A carousel of featured testimonials with company logos.",
+      "imageUrl": "https://res.cloudinary.com/dn7feeelf/image/upload/v1733728012/builtjs/plugin/richjava_social-proof-shad-cn/about-testimonials3.png"
+    },
+    {
+      "name": "stats1",
+      "title": "Statistics Grid",
+      "category": "stats",
+      "namespace": "richjava_social-proof-shad-cn",
+      "description": "A grid of key statistics with animations.",
+      "imageUrl": "https://res.cloudinary.com/dn7feeelf/image/upload/v1733728011/builtjs/plugin/richjava_social-proof-shad-cn/about-stats1.png"
+    },
+    {
+      "name": "header1",
+      "title": "Header 1",
+      "category": "headers",
+      "namespace": "richjava_social-proof-shad-cn",
+      "description": "A responsive header with logo, site title, and navigation menu."
+    },
+    {
+      "name": "footer1",
+      "title": "Footer 1",
+      "category": "footers",
+      "namespace": "richjava_social-proof-shad-cn",
+      "description": "A comprehensive footer with logo, description, quick links, and social media icons."
+    },
+    {
+      "name": "testimonials1",
+      "title": "Testimonials Grid",
+      "category": "testimonials",
+      "namespace": "richjava_social-proof-shad-cn",
+      "description": "A grid layout of customer testimonials with ratings and profile images.",
+      "imageUrl": "https://res.cloudinary.com/dn7feeelf/image/upload/v1733728008/builtjs/plugin/richjava_social-proof-shad-cn/home-testimonials1.png"
+    },
+    {
+      "name": "testimonials2",
+      "title": "Testimonials List",
+      "category": "testimonials",
+      "namespace": "richjava_social-proof-shad-cn",
+      "description": "A vertical list of detailed testimonials with expanded content.",
+      "imageUrl": "https://res.cloudinary.com/dn7feeelf/image/upload/v1733728013/builtjs/plugin/richjava_social-proof-shad-cn/about-testimonials2.png"
+    },
+    {
+      "name": "testimonials3",
+      "title": "Featured Testimonials",
+      "category": "testimonials",
+      "namespace": "richjava_social-proof-shad-cn",
+      "description": "A carousel of featured testimonials with company logos.",
+      "imageUrl": "https://res.cloudinary.com/dn7feeelf/image/upload/v1733728012/builtjs/plugin/richjava_social-proof-shad-cn/about-testimonials3.png"
+    },
+    {
+      "name": "stats1",
+      "title": "Statistics Grid",
+      "category": "stats",
+      "namespace": "richjava_social-proof-shad-cn",
+      "description": "A grid of key statistics with animations.",
+      "imageUrl": "https://res.cloudinary.com/dn7feeelf/image/upload/v1733728011/builtjs/plugin/richjava_social-proof-shad-cn/about-stats1.png"
+    },
+    {
+      "name": "header1",
+      "title": "Header 1",
+      "category": "headers",
+      "namespace": "richjava_social-proof-shad-cn",
+      "description": "A responsive header with logo, site title, and navigation menu."
+    },
+    {
+      "name": "footer1",
+      "title": "Footer 1",
+      "category": "footers",
+      "namespace": "richjava_social-proof-shad-cn",
+      "description": "A comprehensive footer with logo, description, quick links, and social media icons."
+    }
+  ],
+  "layout": {
+    "contentIndex": 1,
+    "sections": [
+      {
+        "name": "header",
+        "template": "header1"
+      },
+      {
+        "name": "footer",
+        "template": "footer1"
+      }
+    ]
+  },
+  "collections": {
+    "stats": [
+      {
+        "_id": "stat-1",
+        "_type": "stat",
+        "value": "98%",
+        "label": "Customer Satisfaction",
+        "description": "Our customers consistently rate their experience as excellent"
+      },
+      {
+        "_id": "stat-2",
+        "_type": "stat",
+        "value": "24/7",
+        "label": "Support Available",
+        "description": "Round-the-clock assistance for all your needs"
+      },
+      {
+        "_id": "stat-3",
+        "_type": "stat",
+        "value": "500+",
+        "label": "Happy Clients",
+        "description": "Growing number of satisfied customers worldwide"
+      },
+      {
+        "_id": "stat-4",
+        "_type": "stat",
+        "value": "4.9/5",
+        "label": "Average Rating",
+        "description": "Consistently high ratings across all platforms"
+      }
+    ],
+    "testimonials": [
+      {
+        "_id": "testimonial-1",
+        "_type": "testimonial",
+        "id": 1,
+        "content": "This product has completely transformed our workflow. The efficiency gains are remarkable!",
+        "author": "Sarah Johnson",
+        "role": "Product Manager",
+        "company": "TechCorp",
+        "image": {
+          "url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=128&h=128&q=80",
+          "width": 128,
+          "height": 128
+        },
+        "rating": 5
+      },
+      {
+        "_id": "testimonial-2",
+        "_type": "testimonial",
+        "id": 2,
+        "content": "The best solution we've found in the market. Customer support is outstanding!",
+        "author": "Michael Chen",
+        "role": "CTO",
+        "company": "InnovateLabs",
+        "image": {
+          "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=128&h=128&q=80",
+          "width": 128,
+          "height": 128
+        },
+        "rating": 5
+      },
+      {
+        "_id": "testimonial-3",
+        "_type": "testimonial",
+        "id": 3,
+        "content": "Incredible value for money. We've seen a 200% ROI since implementing this solution.",
+        "author": "Emily Rodriguez",
+        "role": "Operations Director",
+        "company": "GlobalTech",
+        "image": {
+          "url": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&auto=format&fit=crop&w=128&h=128&q=80",
+          "width": 128,
+          "height": 128
+        },
+        "rating": 5
+      }
+    ]
+  },
+  "plugins": [],
+  "global": {
+    "name": "Social Proof ShadCN",
+    "description": "Beautiful testimonial components for your Next.js projects",
+    "logo": {
+      "url": "https://res.cloudinary.com/dn7feeelf/image/upload/v1725870579/builtjs_bert2m.svg",
+      "width": 45,
+      "height": 45
+    },
+    "social": {
+      "twitter": "https://twitter.com",
+      "github": "https://github.com",
+      "linkedin": "https://linkedin.com"
+    }
+  }
+}

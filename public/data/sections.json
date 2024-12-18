@@ -1,0 +1,86 @@
+{
+  "sections": [
+    {
+      "name": "testimonials",
+      "title": "Testimonials Grid",
+      "description": "A beautiful testimonial section showcasing customer feedback in a grid layout.",
+      "data": {
+        "heading": "What Our Clients Say",
+        "blurb": "Don't just take our word for it - hear from our satisfied customers"
+      },
+      "templates": ["testimonials1"],
+      "type": "body",
+      "defaultTemplate": { "name": "testimonials1" },
+      "collections": {
+        "testimonial": {}
+      }
+    },
+    {
+      "name": "testimonialsList",
+      "title": "Testimonials List",
+      "description": "A list view of testimonials with detailed feedback.",
+      "data": {
+        "heading": "Customer Success Stories",
+        "blurb": "Read what our customers have achieved with our solution"
+      },
+      "templates": ["testimonials2"],
+      "type": "body",
+      "defaultTemplate": { "name": "testimonials2" },
+      "collections": {
+        "testimonial": {}
+      }
+    },
+    {
+      "name": "testimonialsFeatured",
+      "title": "Featured Testimonials",
+      "description": "Showcase your best testimonials in a carousel.",
+      "data": {
+        "heading": "Featured Reviews",
+        "blurb": "See why industry leaders choose us"
+      },
+      "templates": ["testimonials3"],
+      "type": "body",
+      "defaultTemplate": { "name": "testimonials3" },
+      "collections": {
+        "testimonial": {}
+      }
+    },
+    {
+      "name": "testimonialStats",
+      "title": "Testimonial Statistics",
+      "description": "Display key statistics from customer feedback.",
+      "data": {
+        "heading": "By the Numbers",
+        "blurb": "Our impact in statistics"
+      },
+      "templates": ["stats1"],
+      "type": "body",
+      "defaultTemplate": { "name": "stats1" },
+      "collections": {
+        "stat": {}
+      }
+    },
+    {
+      "name": "header",
+      "title": "Header",
+      "description": "The main navigation header of the website.",
+      "data": {
+        "title": "Social Proof ShadCN"
+      },
+      "templates": ["header1"],
+      "type": "header",
+      "defaultTemplate": { "name": "header1" }
+    },
+    {
+      "name": "footer",
+      "title": "Footer",
+      "description": "The footer section containing site information and links.",
+      "data": {
+        "description": "Showcase your customer testimonials with our beautiful and customizable components."
+      },
+      "templates": ["footer1"],
+      "type": "footer",
+      "defaultTemplate": { "name": "footer1" }
+    }
+  ]
+}
