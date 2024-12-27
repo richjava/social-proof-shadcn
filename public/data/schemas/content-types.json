@@ -50,6 +50,27 @@
           "type": "text"
         }
       }
+    },
+    {
+      "name": "primaryMenuItem",
+      "title": "Primary Menu Item",
+      "dataPosition": 1,
+      "fields": {
+        "slug": {
+          "type": "uid",
+          "targetField": "label",
+          "required": true
+        },
+        "label": {
+          "type": "string",
+          "required": true
+        },
+        "url": {
+          "type": "string",
+          "unique": true,
+          "required": true
+        }
+      }
     }
   ]
 }

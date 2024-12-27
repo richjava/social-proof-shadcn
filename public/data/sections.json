@@ -67,6 +67,9 @@
       "data": {
         "title": "Social Proof ShadCN"
       },
+      "collections": {
+        "primaryMenuItem": {}
+      },
       "templates": ["header1"],
       "type": "header",
       "defaultTemplate": { "name": "header1" }

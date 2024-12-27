@@ -22,15 +22,15 @@
       "sections": [
         {
           "name": "testimonialStats",
-          "position": 1
-        },
-        {
-          "name": "testimonialsFeatured",
           "position": 2
         },
         {
+          "name": "testimonialsFeatured",
+          "position": 4
+        },
+        {
           "name": "testimonialsList",
-          "position": 3
+          "position": 5
         }
       ]
     }

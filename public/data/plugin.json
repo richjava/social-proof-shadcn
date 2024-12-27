@@ -3,6 +3,7 @@
     "namespace": "richjava_social-proof-shad-cn",
     "title": "Social Proof ShadCN",
     "description": "A beautiful testimonial section plugin with ShadCN UI components.",
+    "repoUrl": "https://github.com/richjava/social-proof-shad-cn",
     "mainModule": {
       "name": "socialProof"
     },

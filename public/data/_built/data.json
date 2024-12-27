@@ -50,6 +50,27 @@
           "type": "text"
         }
       }
+    },
+    {
+      "name": "primaryMenuItem",
+      "title": "Primary Menu Item",
+      "dataPosition": 1,
+      "fields": {
+        "slug": {
+          "type": "uid",
+          "targetField": "label",
+          "required": true
+        },
+        "label": {
+          "type": "string",
+          "required": true
+        },
+        "url": {
+          "type": "string",
+          "unique": true,
+          "required": true
+        }
+      }
     }
   ],
   "pages": [
@@ -179,6 +200,9 @@
       "description": "The main navigation header of the website.",
       "data": {
         "title": "Social Proof ShadCN"
+      },
+      "collections": {
+        "primaryMenuItem": {}
       },
       "templates": [
         "header1"
@@ -312,6 +336,20 @@
     ]
   },
   "collections": {
+    "primaryMenuItems": [
+      {
+        "slug": "home",
+        "_type": "primaryMenuItem",
+        "label": "Home",
+        "url": "/"
+      },
+      {
+        "slug": "about",
+        "_type": "primaryMenuItem",
+        "label": "About",
+        "url": "/about"
+      }
+    ],
     "stats": [
       {
         "_id": "stat-1",

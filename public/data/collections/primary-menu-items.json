@@ -1,0 +1,18 @@
+{
+  "data": [
+    {
+      "_id": "menu-item-1",
+      "slug": "home",
+      "_type": "primaryMenuItem",
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "_id": "menu-item-2",
+      "slug": "about",
+      "_type": "primaryMenuItem",
+      "label": "About",
+      "url": "/about"
+    }
+  ]
+}

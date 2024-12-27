@@ -1,9 +1,10 @@
-import { Menu } from 'lucide-react'
-import Link from 'next/link'
-import Image from 'next/image'
-import { widthForImage, heightForImage } from '@/lib/builtjs-utils'
+import { Menu } from 'lucide-react';
+import Link from 'next/link';
+import { useRouter } from 'next/router';
+import Image from 'next/image';
+import { widthForImage, heightForImage } from '@/lib/builtjs-utils';
 
-interface HeaderContent {
+interface HeaderProps {
   data?: {
     title?: string;
   };
@@ -15,11 +16,22 @@ interface HeaderContent {
       height: number;
     };
   };
+  collections?: {
+    primaryMenuItem?: Array<{
+      label: string;
+      url: string;
+    }>;
+  };
 }
 
-export default function Header1({ content }: { content?: HeaderContent }) {
-  const title = content?.data?.title || content?.global?.name || 'Social Proof'
-  const logo = content?.global?.logo
+export default function Header1({ content }: { content?: HeaderProps }) {
+  const router = useRouter();
+  const title = content?.global?.name || 'Social Proof';
+  const logo = content?.global?.logo;
+  const menuItems = content?.collections?.primaryMenuItem || [
+
+  ];
+  console.log({content})
 
   return (
     <header className="border-b">
@@ -40,12 +52,15 @@ export default function Header1({ content }: { content?: HeaderContent }) {
             </Link>
           </div>
           <nav className="items-center hidden space-x-8 md:flex">
-            <Link href="/" className="text-gray-600 hover:text-gray-900">
-              Home
-            </Link>
-            <Link href="/about" className="text-gray-600 hover:text-gray-900">
-              About
-            </Link>
+            {menuItems.map((item, index) => (
+              <Link
+                key={index}
+                href={item.url}
+                className={`text-gray-600 hover:text-gray-900 ${router.pathname === item.url ? 'font-bold text-gray-900' : ''}`}
+              >
+                {item.label}
+              </Link>
+            ))}
           </nav>
           <div className="md:hidden">
             <button className="p-2">
@@ -55,5 +70,5 @@ export default function Header1({ content }: { content?: HeaderContent }) {
         </div>
       </div>
     </header>
-  )
+  );
 }
