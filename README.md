@@ -2,6 +2,8 @@
 
 A [Built.js](https://builtjs.com) plugin with sections and pages for showcasing customer feedback, with ShadCN.
 
+Demo: [https://social-proof-shad-cn.vercel.app](https://social-proof-shad-cn.vercel.app)
+
 ## Installation
 1. Install dependencies:
 ```
