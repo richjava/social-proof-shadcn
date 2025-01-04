@@ -9,6 +9,7 @@
     "mainModule": {
       "name": "socialProof"
     },
+    "designSystem": "shadcn",
     "config": {
       "dependencies": [
         "@radix-ui/react-slot",
