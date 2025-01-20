@@ -3,29 +3,29 @@
     {
       "_id": "stat-1",
       "_type": "stat",
-      "value": "98%",
       "label": "Customer Satisfaction",
+      "value": "98%",
       "description": "Our customers consistently rate their experience as excellent"
     },
     {
       "_id": "stat-2",
       "_type": "stat",
-      "value": "24/7",
       "label": "Support Available",
+      "value": "24/7",
       "description": "Round-the-clock assistance for all your needs"
     },
     {
       "_id": "stat-3",
       "_type": "stat",
-      "value": "500+",
       "label": "Happy Clients",
+      "value": "500+",
       "description": "Growing number of satisfied customers worldwide"
     },
     {
       "_id": "stat-4",
       "_type": "stat",
-      "value": "4.9/5",
       "label": "Average Rating",
+      "value": "4.9/5",
       "description": "Consistently high ratings across all platforms"
     }
   ]
