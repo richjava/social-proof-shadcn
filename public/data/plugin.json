@@ -1,11 +1,11 @@
 {
   "plugin": {
-    "namespace": "richjava_social-proof-shad-cn",
+    "namespace": "richjava_social-proof-shadcn",
     "title": "Social Proof ShadCN",
     "description": "A beautiful testimonial section plugin with ShadCN UI components.",
     "imageUrl": "https://res.cloudinary.com/dn7feeelf/image/upload/v1733728008/builtjs/plugin/richjava_social-proof-shad-cn/home-testimonials1.png",
-    "repoUrl": "https://github.com/richjava/social-proof-shad-cn",
-    "demoUrl": "https://social-proof-shad-cn.vercel.app",
+    "repoUrl": "https://github.com/richjava/social-proof-shadcn",
+    "demoUrl": "https://social-proof-shadcn.vercel.app",
     "mainModule": {
       "name": "socialProof"
     },

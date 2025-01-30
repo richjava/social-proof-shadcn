@@ -233,92 +233,92 @@
       "name": "testimonials1",
       "title": "Testimonials Grid",
       "category": "testimonials",
-      "namespace": "richjava_social-proof-shad-cn",
+      "namespace": "richjava_social-proof-shadcn",
       "description": "A grid layout of customer testimonials with ratings and profile images.",
-      "imageUrl": "https://res.cloudinary.com/dn7feeelf/image/upload/v1733728008/builtjs/plugin/richjava_social-proof-shad-cn/home-testimonials1.png"
+      "imageUrl": "https://res.cloudinary.com/dn7feeelf/image/upload/v1733728008/builtjs/plugin/richjava_social-proof-shadcn/home-testimonials1.png"
     },
     {
       "name": "testimonials2",
       "title": "Testimonials List",
       "category": "testimonials",
-      "namespace": "richjava_social-proof-shad-cn",
+      "namespace": "richjava_social-proof-shadcn",
       "description": "A vertical list of detailed testimonials with expanded content.",
-      "imageUrl": "https://res.cloudinary.com/dn7feeelf/image/upload/v1733728013/builtjs/plugin/richjava_social-proof-shad-cn/about-testimonials2.png"
+      "imageUrl": "https://res.cloudinary.com/dn7feeelf/image/upload/v1733728013/builtjs/plugin/richjava_social-proof-shadcn/about-testimonials2.png"
     },
     {
       "name": "testimonials3",
       "title": "Featured Testimonials",
       "category": "testimonials",
-      "namespace": "richjava_social-proof-shad-cn",
+      "namespace": "richjava_social-proof-shadcn",
       "description": "A carousel of featured testimonials with company logos.",
-      "imageUrl": "https://res.cloudinary.com/dn7feeelf/image/upload/v1733728012/builtjs/plugin/richjava_social-proof-shad-cn/about-testimonials3.png"
+      "imageUrl": "https://res.cloudinary.com/dn7feeelf/image/upload/v1733728012/builtjs/plugin/richjava_social-proof-shadcn/about-testimonials3.png"
     },
     {
       "name": "stats1",
       "title": "Statistics Grid",
       "category": "stats",
-      "namespace": "richjava_social-proof-shad-cn",
+      "namespace": "richjava_social-proof-shadcn",
       "description": "A grid of key statistics with animations.",
-      "imageUrl": "https://res.cloudinary.com/dn7feeelf/image/upload/v1733728011/builtjs/plugin/richjava_social-proof-shad-cn/about-stats1.png"
+      "imageUrl": "https://res.cloudinary.com/dn7feeelf/image/upload/v1733728011/builtjs/plugin/richjava_social-proof-shadcn/about-stats1.png"
     },
     {
       "name": "header1",
       "title": "Header 1",
       "category": "headers",
-      "namespace": "richjava_social-proof-shad-cn",
+      "namespace": "richjava_social-proof-shadcn",
       "description": "A responsive header with logo, site title, and navigation menu."
     },
     {
       "name": "footer1",
       "title": "Footer 1",
       "category": "footers",
-      "namespace": "richjava_social-proof-shad-cn",
+      "namespace": "richjava_social-proof-shadcn",
       "description": "A comprehensive footer with logo, description, quick links, and social media icons."
     },
     {
       "name": "testimonials1",
       "title": "Testimonials Grid",
       "category": "testimonials",
-      "namespace": "richjava_social-proof-shad-cn",
+      "namespace": "richjava_social-proof-shadcn",
       "description": "A grid layout of customer testimonials with ratings and profile images.",
-      "imageUrl": "https://res.cloudinary.com/dn7feeelf/image/upload/v1733728008/builtjs/plugin/richjava_social-proof-shad-cn/home-testimonials1.png"
+      "imageUrl": "https://res.cloudinary.com/dn7feeelf/image/upload/v1733728008/builtjs/plugin/richjava_social-proof-shadcn/home-testimonials1.png"
     },
     {
       "name": "testimonials2",
       "title": "Testimonials List",
       "category": "testimonials",
-      "namespace": "richjava_social-proof-shad-cn",
+      "namespace": "richjava_social-proof-shadcn",
       "description": "A vertical list of detailed testimonials with expanded content.",
-      "imageUrl": "https://res.cloudinary.com/dn7feeelf/image/upload/v1733728013/builtjs/plugin/richjava_social-proof-shad-cn/about-testimonials2.png"
+      "imageUrl": "https://res.cloudinary.com/dn7feeelf/image/upload/v1733728013/builtjs/plugin/richjava_social-proof-shadcn/about-testimonials2.png"
     },
     {
       "name": "testimonials3",
       "title": "Featured Testimonials",
       "category": "testimonials",
-      "namespace": "richjava_social-proof-shad-cn",
+      "namespace": "richjava_social-proof-shadcn",
       "description": "A carousel of featured testimonials with company logos.",
-      "imageUrl": "https://res.cloudinary.com/dn7feeelf/image/upload/v1733728012/builtjs/plugin/richjava_social-proof-shad-cn/about-testimonials3.png"
+      "imageUrl": "https://res.cloudinary.com/dn7feeelf/image/upload/v1733728012/builtjs/plugin/richjava_social-proof-shadcn/about-testimonials3.png"
     },
     {
       "name": "stats1",
       "title": "Statistics Grid",
       "category": "stats",
-      "namespace": "richjava_social-proof-shad-cn",
+      "namespace": "richjava_social-proof-shadcn",
       "description": "A grid of key statistics with animations.",
-      "imageUrl": "https://res.cloudinary.com/dn7feeelf/image/upload/v1733728011/builtjs/plugin/richjava_social-proof-shad-cn/about-stats1.png"
+      "imageUrl": "https://res.cloudinary.com/dn7feeelf/image/upload/v1733728011/builtjs/plugin/richjava_social-proof-shadcn/about-stats1.png"
     },
     {
       "name": "header1",
       "title": "Header 1",
       "category": "headers",
-      "namespace": "richjava_social-proof-shad-cn",
+      "namespace": "richjava_social-proof-shadcn",
       "description": "A responsive header with logo, site title, and navigation menu."
     },
     {
       "name": "footer1",
       "title": "Footer 1",
       "category": "footers",
-      "namespace": "richjava_social-proof-shad-cn",
+      "namespace": "richjava_social-proof-shadcn",
       "description": "A comprehensive footer with logo, description, quick links, and social media icons."
     }
   ],
