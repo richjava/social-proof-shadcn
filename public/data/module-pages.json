@@ -21,6 +21,10 @@
       },
       "sections": [
         {
+          "name": "aboutSeo",
+          "position": 1
+        },
+        {
           "name": "testimonialStats",
           "position": 2
         },

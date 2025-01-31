@@ -45,6 +45,12 @@
       "category": "footers",
       "namespace": "richjava_social-proof-shadcn",
       "description": "A comprehensive footer with logo, description, quick links, and social media icons."
+    },{
+      "name": "seo",
+      "title": "SEO",
+      "category": "head",
+      "namespace": "richjava_social-proof-shadcn",
+      "description": "Define SEO meta titles, meta descriptions and social media meta data."
     }
   ]
 }

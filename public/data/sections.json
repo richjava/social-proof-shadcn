@@ -84,6 +84,23 @@
       "templates": ["footer1"],
       "type": "footer",
       "defaultTemplate": { "name": "footer1" }
+    },
+    {
+      "name": "aboutSeo",
+      "data": {
+        "pageTitle": "About | Social Proof ShadCN Built.JS Plugin",
+        "description": "About page for a site built with the Social Proof ShadCN Built.js Plugin.",
+        "shareImage": {
+          "url": "https://res.cloudinary.com/dn7feeelf/image/upload/v1733735967/builtjs/theme/richjava_corporate-shad-cn/home-cover1.png",
+          "width": 1280,
+          "height": 768
+        },
+        "twitterCardType": "summary"
+      },
+      "templates": ["seo"],
+      "type": "head",
+      "defaultTemplate": { "name": "seo" },
+      "collections": {}
     }
   ]
 }
