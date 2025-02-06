@@ -31,7 +31,6 @@ export default function Header1({ content }: { content?: HeaderProps }) {
   const menuItems = content?.collections?.primaryMenuItem || [
 
   ];
-  console.log({content})
 
   return (
     <header className="border-b">
