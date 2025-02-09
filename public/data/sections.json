@@ -64,9 +64,7 @@
       "name": "header",
       "title": "Header",
       "description": "The main navigation header of the website.",
-      "data": {
-        "title": "Social Proof ShadCN"
-      },
+      "data": {},
       "collections": {
         "primaryMenuItem": {}
       },

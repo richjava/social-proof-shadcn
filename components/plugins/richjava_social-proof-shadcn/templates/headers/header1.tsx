@@ -5,9 +5,7 @@ import Image from 'next/image';
 import { widthForImage, heightForImage } from '@/lib/builtjs-utils';
 
 interface HeaderProps {
-  data?: {
-    title?: string;
-  };
+  data?: {};
   global?: {
     name?: string;
     logo?: {
@@ -28,9 +26,7 @@ export default function Header1({ content }: { content?: HeaderProps }) {
   const router = useRouter();
   const title = content?.global?.name || 'Social Proof';
   const logo = content?.global?.logo;
-  const menuItems = content?.collections?.primaryMenuItem || [
-
-  ];
+  const menuItems = content?.collections?.primaryMenuItem || [];
 
   return (
     <header className="border-b">

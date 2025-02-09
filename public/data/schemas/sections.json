@@ -2,11 +2,7 @@
   "sections": {
     "header": {
       "name": "header",
-      "fields": {
-        "title": {
-          "type": "string"
-        }
-      }
+      "fields": {}
     },
     "footer": {
       "name": "footer",
