@@ -69,7 +69,7 @@
         "primaryMenuItem": {}
       },
       "templates": ["header1"],
-      "type": "header",
+      "type": "layout",
       "defaultTemplate": { "name": "header1" }
     },
     {
@@ -80,7 +80,7 @@
         "description": "Showcase your customer testimonials with our beautiful and customizable components."
       },
       "templates": ["footer1"],
-      "type": "footer",
+      "type": "layout",
       "defaultTemplate": { "name": "footer1" }
     },
     {
