@@ -4,6 +4,7 @@
       "name": "testimonials",
       "title": "Testimonials Grid",
       "description": "A beautiful testimonial section showcasing customer feedback in a grid layout.",
+      "imageUrl": "https://res.cloudinary.com/dn7feeelf/image/upload/v1733728008/builtjs/plugin/richjava_social-proof-shad-cn/home-testimonials1.png",
       "data": {
         "heading": "What Our Clients Say",
         "blurb": "Don't just take our word for it - hear from our satisfied customers"
@@ -19,6 +20,7 @@
       "name": "testimonialsList",
       "title": "Testimonials List",
       "description": "A list view of testimonials with detailed feedback.",
+      "imageUrl": "https://res.cloudinary.com/dn7feeelf/image/upload/v1733728013/builtjs/plugin/richjava_social-proof-shad-cn/about-testimonials2.png",
       "data": {
         "heading": "Customer Success Stories",
         "blurb": "Read what our customers have achieved with our solution"
@@ -34,6 +36,7 @@
       "name": "testimonialsFeatured",
       "title": "Featured Testimonials",
       "description": "Showcase your best testimonials in a carousel.",
+      "imageUrl": "https://res.cloudinary.com/dn7feeelf/image/upload/v1733728012/builtjs/plugin/richjava_social-proof-shad-cn/about-testimonials3.png",
       "data": {
         "heading": "Featured Reviews",
         "blurb": "See why industry leaders choose us"
@@ -49,6 +52,7 @@
       "name": "testimonialStats",
       "title": "Testimonial Statistics",
       "description": "Display key statistics from customer feedback.",
+      "imageUrl": "https://res.cloudinary.com/dn7feeelf/image/upload/v1733728011/builtjs/plugin/richjava_social-proof-shad-cn/about-stats1.png",
       "data": {
         "heading": "By the Numbers",
         "blurb": "Our impact in statistics"
