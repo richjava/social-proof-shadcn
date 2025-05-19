@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { Menu } from 'lucide-react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
@@ -5,7 +6,7 @@ import Image from 'next/image';
 import { widthForImage, heightForImage } from '@/lib/builtjs-utils';
 
 interface HeaderProps {
-  data?: {};
+  data?: Record<string, never>;
   global?: {
     name?: string;
     logo?: {
