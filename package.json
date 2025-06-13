@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@builtjs/theme": "^1.4.29",
+    "@builtjs/theme": "^1.4.38",
     "@radix-ui/react-slot": "^1.2.2",
     "class-variance-authority": "^0.7.1",
     "lucide-react": "^0.511.0",
